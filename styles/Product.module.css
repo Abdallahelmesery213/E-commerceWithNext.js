@@ -1,0 +1,11 @@
+.product{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px; 
+}
+
+.product a {
+    text-decoration: none;
+    padding: 5px;
+}
