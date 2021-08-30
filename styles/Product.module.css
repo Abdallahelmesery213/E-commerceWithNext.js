@@ -1,12 +1,13 @@
 .product{
     border: 1px solid #ccc;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
     margin-bottom: 5px; 
-    min-height: 340px;
+    min-height: 425px;
 }
 
 .product a {
     text-decoration: none;
     padding: 5px;
+    margin-top: 20px;
 }

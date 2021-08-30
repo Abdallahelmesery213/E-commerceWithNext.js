@@ -6,15 +6,15 @@ const Product = ({product}) => {
     return ( 
         <div className="container">
                     <div className={styles.product}>
-                        <div>
+                        <div style={{marginBottom:"25px"}}>
                             <img src={image} width="200px" height="200px" />
                         </div>
                         <div>
                             <ul className="list-unstyled">
                                 <li>{title} </li>
-                                <li style={{color:"red"}}><h4> {price}$ </h4></li>
+                                <li style={{color:"red", marginTop:"10px"}}><h4> {price}$ </h4></li>
                             </ul>
-                            <Link href={`/products/${id}`}><a className="btn-primary" >More Details</a></Link>
+                            <Link href={`/products/${id}`}><a className="btn-primary " >More Details</a></Link>
                         </div>
                     </div>
             
