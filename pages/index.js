@@ -5,10 +5,19 @@ const  Home = ({products}) => {
   return (  
     
     <main>
-      <Head> <title> Home </title> </Head>
-      {
-        products.map(product => <Product key={product.id} product={product}/> )
-      }
+      <Head> <title> Home | Our Products </title> </Head>
+      <div className="row">
+        
+            {
+              products.map(product => (
+              <div className="col-md-4 col-sm-6 col-12" key={product.id}>
+                <Product  product={product}/>
+              </div>)  
+              )
+            }
+        
+      </div>
+      
     </main>
   );
 }

@@ -7,14 +7,14 @@ const singleProduct = ({product}) => {
             <Head>
                 <title>{title}</title>
             </Head>
-            <div className="card d-flex align-items-center" >
+            <div className="card d-flex align-items-center p-2" >
                 <img src={image} width="200px" />
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p> {description} </p>
                 </div>
                 <ul className="list-group list-group-flush">
-                    <li className="list-group-item"><h2>{price} $</h2></li>
+                    <li className="list-group-item"><h2 className="text-danger">{price} $</h2></li>
                     <li className="list-group-item">{category}</li>
                     
                 </ul>

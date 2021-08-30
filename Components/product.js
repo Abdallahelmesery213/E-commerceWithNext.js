@@ -5,9 +5,6 @@ const Product = ({product}) => {
     const {id , title , price , image} = product;
     return ( 
         <div className="container">
-            <div className="row ">
-                <div className="col-12">
-
                     <div className={styles.product}>
                         <div>
                             <img src={image} width="200px" height="200px" />
@@ -20,9 +17,6 @@ const Product = ({product}) => {
                             <Link href={`/products/${id}`}><a className="btn-primary" >More Details</a></Link>
                         </div>
                     </div>
-
-                </div>
-            </div>
             
         </div>
      );
